@@ -1,0 +1,133 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Verifying adactin login with valid credentials.",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18876336300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "StepDefn.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 402709200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should enter \"SheebaBuvana\"\"Sheeba@24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SheebaBuvana\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Sheeba@24\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefn.user_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2732865100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click login button",
+            "match": {
+              "location": "StepDefn.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2509291500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should select \"New York\" ,\"Hotel Sunshine\" ,\"Deluxe\" ,\"2 - Two\" ,\"25/01/2022\" ,\"26/01/2022\",\"1 - One\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New York\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"25/01/2022\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"26/01/2022\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 107
+                }
+              ],
+              "location": "StepDefn.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43527300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify \"Select Hotel\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefn.user_should_verify_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
