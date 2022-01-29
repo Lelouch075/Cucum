@@ -17,6 +17,7 @@ public class TestRunner {
 	public static void afterClass() {
 		
 		Reporting.generateJvmReport("C:\\Users\\Jeeva\\eclipse-workspace\\MavenCucu\\src\\test\\resources\\Reports\\output.json");
+		System.out.println("Kerala");
 		
 		
 	}
